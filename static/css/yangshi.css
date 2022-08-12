@@ -1,0 +1,81 @@
+.main-footer .lianxi{
+    position: relative;
+}
+.weixin{
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    right: 40px;
+    bottom: -25px;
+
+    /*padding-right: 30px;*/
+
+}
+.lianxi:hover .weixin{
+    /*display: inline;*/
+    visibility: visible !important;
+
+}
+#live2d{
+    display: none;
+}
+#waifu-tips{
+    visibility: hidden !important;
+}
+.icon-24gf-table:before {
+    content: none !important;
+}
+.canvas-bg{
+    /*width: 1230px !important;*/
+    height: 283px !important;
+}
+
+/*.sidebar-menu{*/
+/*    height: 350px !important;*/
+/*}*/
+/*.border-top{*/
+/*    height: 60px !important;*/
+/*}*/
+.aplayer{
+    left:50px !important;
+
+}
+.aplayer-list{
+    left: 50px !important;
+}
+.subtitle{
+    font-size:15px;
+    font-style: normal;
+    color: #d58512;
+}
+/*.post-top {*/
+/*    padding-bottom: 40px !important;*/
+/*}*/
+.first-tag{
+    padding-top: 20px !important;
+}
+@media only screen and (min-device-width: 768px){
+   ::-webkit-scrollbar {
+    width: 0px !important;
+
+}
+}
+.s-type-list{
+    margin-right: 15px !important;
+    /*padding-right: 15px !important;*/
+}
+#content .tab-content{
+    margin-top: 0px !important;
+
+
+}
+#content .tab-content #my-nav .row .nothing{
+    margin-bottom: 0px !important;
+}
+#content .tab-content #my-nav .row .remove-sites{
+
+}
+.sidebar-item .tit{
+    font-weight: bold;
+    color: #15559A;
+}
